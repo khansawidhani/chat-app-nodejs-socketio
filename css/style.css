@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand{
+    width: 90px;
+    height: auto;
+}
+header{
+    height: 10vh;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+main{
+    height: 90vh;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: space-between; */
+    
+}
+.main-container{
+    max-width: 980px;
+    height: 100vh;
+    display: block;
+    margin: auto;
+}
+#messageContainer{
+  
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    overflow-y: auto;
+    height: 480px;
+    max-height: 480px;
+
+    
+}
+#messageContainer .message-box{
+    max-width: 50%;
+}
+#messageContainer .message-box .message{
+    background-color: rgb(247, 243, 243);
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 3px;
+    
+}
+#messageContainer .left{
+    float: left;
+    clear: both;
+}
+#messageContainer .right{
+    float: right;
+    clear: both;
+}
+#messageContainer .message-box .message-from{
+    color: purple;
+}
+#formContainer{
+    margin-top: 20px;
+    /* flex: 1; */
+}
+#formContainer form textarea{
+    padding: 10px;
+    display: block;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    overflow-y: auto;
+    
+}
+#formContainer form button{
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: white;
+    color: purple;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px;
+    float: right;
+    clear: both;
+}

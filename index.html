@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+    <title>Wello Chat - Realtime Chat Application</title>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <header>
+            <div class="brand">
+                <img class="brand" src="./res/app-logo.png" />
+            </div>
+            <div class="heading">
+                <h1>Wello Chat</h1>
+                <p>Realtime Chat Application</p>
+            </div>
+        </header>
+        <main>
+            <section class="message-container" id="messageContainer">
+                <div class="message-box left">
+                    <h4 class="message-from">
+                        Khansa :
+                    </h4>
+                    <p class="message">
+                        Hi How are you?
+                    </p>
+                </div>
+                <div class="message-box right">
+                    <h4 class="message-from">
+                        Hayat :
+                    </h4>
+                    <p class="message left">
+                        Hey! I am doing good! You say?
+                        Hey! I am doing good! You say?
+                    </p>
+                </div>
+    
+            </section>
+            <section class="form-container" id="formContainer">
+                <form action="#" id="inputForm">
+                    <textarea type="text" name="messageInput" id="messageInput" rows="5" placeholder="Your message" ></textarea><br>
+
+                    <button type="submit" id="send">Send Message</button>
+                    
+                </form>
+            </section>
+        </main>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
